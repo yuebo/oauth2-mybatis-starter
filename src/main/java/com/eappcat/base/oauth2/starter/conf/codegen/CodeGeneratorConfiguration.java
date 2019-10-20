@@ -1,4 +1,4 @@
-package com.eappcat.base.oauth2.starter.conf;
+package com.eappcat.base.oauth2.starter.conf.codegen;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

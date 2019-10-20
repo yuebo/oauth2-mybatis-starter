@@ -1,4 +1,4 @@
-package com.eappcat.base.oauth2.starter.conf;
+package com.eappcat.base.oauth2.starter.conf.mybatis;
 
 import com.baomidou.mybatisplus.core.config.GlobalConfig;
 import com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor;

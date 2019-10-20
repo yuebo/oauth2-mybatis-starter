@@ -4,8 +4,7 @@ spring:
     username: root
     password: password
     driver-class-name: com.mysql.cj.jdbc.Driver
-  redis:
-    database: 1
+#  redis:
+#    database: 1
   flyway:
     enabled: false
-
