@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  flyway:
+    enabled: true
+
+codegen:
+  file-override: false
+  package-name: com.eappcat.base.oauth2.starter
+  module-name: auth
+  base-entity-class: com.eappcat.base.oauth2.starter.base.BaseEntity
+  excludes: flyway_schema_history
+  table-prefix: tbl_
